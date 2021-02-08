@@ -2,15 +2,11 @@
   font-family: "Roboto", sans-serif;
 }
 
-.container {
-  width: 60vw;
-  margin: auto;
-}
-
 .searchBar input {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 1.5em;
   color: #ff7b00;
   padding-left: 5px;
@@ -20,18 +16,14 @@
 }
 
 .gallery {
+  width: 80vw;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   grid-template-rows: repeat(3, 200px);
   grid-auto-rows: 200px;
   grid-gap: 1.3rem;
   grid-auto-flow: dense;
-}
-
-.gallery img {
-  max-width: 200px;
-  max-height: 200px;
-  object-fit: cover;
 }
 
 /*# sourceMappingURL=styles.css.map */
